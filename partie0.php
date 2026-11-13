@@ -4,8 +4,8 @@ class Voiture {
     public $couleur;
 
     public function setMarque($m) {
-        $this->marque = $m;      // $this = l'objet qui appelle la méthode
-    }
+        $this->marque = $m; 
+    }    
 
     public function setCouleur($c) {
         $this->couleur=$c;
